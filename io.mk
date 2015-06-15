@@ -1,7 +1,7 @@
 $(call inherit-product, device/google/sprout4/sprout4.mk)
 
 # Common CM stuff
-$(call inherit-product, vendor/io/configs/common_full_phone.mk)
+$(call inherit-product, vendor/io/configs/common.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_FINGERPRINT=5.1/LMY47O/1783956:user/release-keys PRIVATE_BUILD_DESC="sprout-user 5.1 LMY47O 1783956 release-keys"
 
