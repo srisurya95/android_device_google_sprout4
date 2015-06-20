@@ -24,7 +24,7 @@ TARGET_RECOVERY_FSTAB := device/google/sprout4/rootdir/root/fstab.sprout
 # BlissPop Config Flags
 TARGET_TC_ROM := 4.8
 TARGET_TC_KERNEL := 4.8
-BLISSIFY := true
-BLISS_GRAPHITE := true
+BLISSIFY := false
+BLISS_GRAPHITE := false
 TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
