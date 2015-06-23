@@ -22,8 +22,8 @@ TARGET_OTA_ASSERT_DEVICE := sprout,sprout4
 TARGET_RECOVERY_FSTAB := device/google/sprout4/rootdir/root/fstab.sprout
 
 # BlissPop Config Flags
-TARGET_TC_ROM := 5.0-sm
-TARGET_TC_KERNEL := 5.0-sm
+TARGET_TC_ROM := 4.8-linaro
+TARGET_TC_KERNEL := 4.9-linaro
 BLISSIFY := false
 BLISS_GRAPHITE := false
 TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
